@@ -1,0 +1,13 @@
+{
+  "name": "vignanconnect-fullstack",
+  "version": "1.0.0",
+  "description": "Vignan University (VFSTR Vadlamudi) Campus Issue Reporting & Utility Portal",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "node server/server.js",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "test": "node server/verify_all.js"
+  }
+}
+
